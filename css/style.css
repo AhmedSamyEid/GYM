@@ -1,0 +1,399 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+/* html {
+  scroll-behavior: smooth;
+} */
+section {
+  overflow: hidden;
+  height: 5100px;
+}
+.container {
+  background-image: url('../photo/fitcity_cycle-society22-03-02-0310.jpg.webp');
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+}
+.navbar {
+  text-align: end;
+  word-spacing: 20px;
+  font-weight: 100;
+  
+  
+}
+.navbar a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 20px;
+  position: relative;
+  right: 2%;
+  top: 10px;
+}
+.home {
+  color: #f40000;
+}
+.Contact {
+  padding: 10px;
+  background-color: #f40000;
+  border-radius: 7px;
+  transition: all 0.5s;
+}
+.Contact:hover {
+  background-color: #ffffff;
+  color: #000;
+}
+.veented {
+  width:45%;
+  color: #fff;
+  font-size: 25px;
+  text-align: center;
+  position: relative;
+  top:140px;
+  left: 30%;
+}
+.fadeInUp {
+  position: relative;
+  top: 120px;
+  text-align: center;
+  color: #ff0000;
+  font-size: 70px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.visible {
+  position: relative;
+  top: 100px;
+  text-align: center;
+  color: #fff;
+  font-size: 25px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.User-face {
+  position: relative;
+  top: 460px;
+  background-color: #fe2727;
+  width: 530px;
+  height: 500px;
+}
+.Crossfit {
+  position: relative;
+  left: 10%;
+  color: #fff;
+  font-size: 30px;
+}
+.the {
+  width: 400px;
+  position: relative;
+  left: 10%;
+  line-height: 30px;
+  color: #fff;
+  font-size: 18px;
+  top: 40px;
+  
+}
+.the p {
+  font-weight: 100;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.Read-Mor {
+  position: relative;
+  top:70px ;
+  left: 10%;
+  padding: 10px;
+  border-radius: 4px;
+  background-color: #050505;
+  border: solid 1px #050505; 
+  color: #fff;
+  width: 20%;
+  transition: all 0.4s;
+  cursor: pointer;
+
+  filter: drop-shadow(1px 1px 30px white );
+} 
+.Read-Mor:hover {
+  background-color: #de0000;
+  border: solid 1px #de0000; 
+}
+.img img {
+  width: 70%;
+  height: 500px;
+  position: relative;
+  left: 40%;
+  bottom: 40px;
+  object-fit: cover;
+}
+.img2 {
+  position: relative;
+  bottom: 70px;
+}
+.img3 img {
+  width:60%;
+  height: 900px;
+  object-fit: cover;
+  position: relative;
+  bottom: 75px;
+}
+
+.gym h1 {
+  position: relative;
+  left: 70%;
+  bottom: 900px;
+  font-size: 45px;
+  color: #f40000;
+}
+.gym p {
+  position: relative;
+  left: 67%;
+  bottom: 850px;
+  width: 30%;
+  line-height: 25px;
+  color: #2e2d2d;
+}
+.Read-Mor1 {
+  position: relative;
+  left: 70%;
+  bottom: 700px;
+  padding: 10px;
+  width: 20%;
+  background-color: rgb(255, 35, 35);
+  border-radius: 4px;
+  border: solid 1px rgb(255, 35, 35);
+  font-size: 18px;
+  transition: all 0.4s;
+}
+.Read-Mor1:hover {
+  background-color: #050505;
+  border: solid 1px #050505;
+  color: #fff;
+}
+.leyr {
+  width: 100%;
+  height: 400px;
+  background-color: #2a2828;
+  position: relative;
+  bottom: 330px;
+}
+.leyr img {
+  width: 25%;
+  height: 400px;
+  object-fit: cover;
+  
+}
+.png {
+  position: relative;
+  bottom: 404px;
+  left: 75%;
+  padding: 15px;
+}
+.p {
+  width: 50%;
+  height: 300px;
+  transition: all 0.4s;
+}
+.p:hover {
+  width: 25%;
+  height: 400px;
+  position: relative;
+  opacity: .7;
+  background-color: #eb1818;
+  
+}
+.h {
+  width: 50%;
+  height: 300px;
+  transition: all 0.4s;
+}
+.h:hover {
+  width: 25%;
+  height: 400px;
+  position: relative;
+  opacity: .7;
+  background-color: #eb1818;
+  
+}
+.g {
+  width: 50%;
+  height: 300px;
+  transition: all 0.4s;
+}
+.g:hover {
+  width: 25%;
+  height: 400px;
+  position: relative;
+  opacity: .7;
+  background-color: #eb1818;
+  
+}
+.png {
+  width: 50%;
+  height: 300px;
+  transition: all 0.4s;
+}
+.png:hover {
+  width: 25%;
+  height: 400px;
+  position: relative;
+  opacity: .7;
+  background-color: #eb1818;
+  
+  
+}
+.img4 {
+  background-image:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../photo/barbell-on-the-floor.jpeg');
+  width: 100%;
+  height: 700px;
+  background-position: center;
+  position: relative;
+  bottom: 340px;
+  
+}
+.img4 img {
+  width: 40%;
+  height: 800px;
+  position: relative;
+  left: 60%;
+}
+.bod {
+  width: 40%;
+  height: 700px;
+  background-image: url('../photo/active-adult-biceps-body.png');
+  position: relative;
+  left: 50%;
+  bottom: 800px;
+  background-size: cover;
+}
+.bod h3 {
+  color: #fff;
+  position: relative;
+  right: 100%;
+  top: 200px;
+  line-height: 40px;
+  font-size: 25px;
+}
+.layre2 {
+  width: 50%;
+  height: 550px;
+  background-color: #f11d1d;
+  position: relative;
+  bottom: 805px;
+}
+.Read-Mor2 {
+  position: relative;
+  top: 200px;
+  left: 20%;
+  top: 140px;
+  padding: 10px;
+  width: 20%;
+  background-color: #000;
+  border-radius: 4px;
+  border: solid 1px #000;
+  color: #fff;
+  filter: drop-shadow(1px 1px 20px white);
+  transition: all 0.4s;
+}
+.Read-Mor2:hover {
+  background-color: #fe2727;
+  border: solid 1px #fe2727;
+}
+.layre2 p {
+  width: 60%;
+  position: relative;
+  top: 100px;
+  left: 20%;
+  color: #fff;
+  line-height: 30px;
+  font-size: 18px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.layre2 h3 {
+  position: relative;
+  left: 20%;
+  top: 50px;
+  font-size: 35px;
+}
+.img6 {
+  background-image: url('../photo/BEST-KICK-BOXING-IN-DUBAI-scaled.jpg');
+  width: 50%;
+  height: 550px;
+  position: relative;
+  left: 50%;
+  bottom: 1355px;
+  background-position: center;
+  background-size: cover;
+}
+.vidos {
+  position: relative;
+  bottom: 1355px;
+
+}
+.vidos video {
+  height: 700px;
+}
+.footer {
+  width: 100%;
+  height: 400px;
+background-color: #000;
+position: relative;
+bottom: 1359px;
+}
+.footer img {
+  width: 250px;
+  height: 200px;
+  object-fit: contain;
+  position: relative;
+  left: 5%;
+}
+.footer p {
+  color: #fff;
+  width: 25%;
+  position: relative;
+  left: 5%;
+  bottom: 40px;
+  line-height: 30px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.icons2 {
+  margin: 50px;
+  word-spacing: 20px;
+  font-size: 25px;
+}
+.ues h1 {
+  position: relative;
+  left: 40%;
+  color: #de0000;
+  font-size: 30px;
+  top: -310px;
+}
+.ues h3 {
+  position: relative;
+  left: 40%;
+  top: -300px;
+  color: #fff;
+  line-height: 30px;
+  font-weight: 100;
+
+}
+.link h1 {
+  position: relative;
+  left: 65%;
+  top: -550px;
+
+}
+.link p {
+  position: relative;
+  left: 65%;
+  bottom: 510px;
+  line-height: 35px;
+}
+.link i {
+  font-size: 20px;
+}
+.leyer88 {
+  background-color: #de0000;
+  width: 100%;
+  height: 60px;
+  position: relative;
+  bottom: 1359px;
+}
